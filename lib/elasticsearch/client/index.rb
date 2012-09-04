@@ -83,7 +83,7 @@ module ElasticSearch
 
         response = execute(:search, index, type, query, search_options)
 
-        Hits.new(response, {:per_page => options[:per_page], :page => options[:page], :ids_only => options[:ids_only]}) #ids_only returns array of ids instead of hits
+        #Hits.new(response, {:per_page => options[:per_page], :page => options[:page], :ids_only => options[:ids_only]}) #ids_only returns array of ids instead of hits
       end
 
       #ids_only Return ids instead of hits
