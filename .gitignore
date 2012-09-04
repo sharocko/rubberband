@@ -20,3 +20,5 @@ tags
 
 # Gemfile.lock should not be checked in for gems
 Gemfile.lock
+
+/.project
